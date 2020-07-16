@@ -38,4 +38,7 @@ _definir los atributos qeu se van a manejar para cada entidad, una vez teniendo 
 _la idea es tener todo separado, como lo es el modelo (con cada entidad) , las rutas (un archivo de rutas para cada entidad )  y el_ _archivo principal (app.py) en el cual se pone a correr la aplicación._
 
 
-* **Yeffer Velandia** 
+
+
+
+ **Yeffer Velandia** 
