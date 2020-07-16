@@ -32,7 +32,7 @@ _Sistema Operativo : _
 Windows 10 enterprise
 ```
 
-## resolver el problema. 
+## Resolver el problema. 
 _Tendiendo las entidades planteadas en el problema (clientes, socker, medidores) con su respectiva realacion , lo primero que hice fue _
 _definir los atributos qeu se van a manejar para cada entidad, una vez teniendo el modelo escrito, definir la estructura de carpetas._
 _la idea es tener todo separado, como lo es el modelo (con cada entidad) , las rutas (un archivo de rutas para cada entidad )  y el_ _archivo principal (app.py) en el cual se pone a correr la aplicación._
