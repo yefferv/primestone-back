@@ -11,8 +11,8 @@ class Socket(db.Model):
 
 
     customer_identification = db.Column(db.String(14), db.ForeignKey('Customer.identification'), nullable=False)
-    #customer = db.relationship('Customer', backref=db.backref('Socket', lazy=True))
-
+    
+    children = db.relationship("Measurer")
     
     def __init__(self,code,city,address,coordinateX,coordinateY,customer_identification):
         self.code = code

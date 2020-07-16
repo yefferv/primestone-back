@@ -12,7 +12,6 @@ def create_app():
     db.init_app(app)
 
     with app.app_context():
-        from back.routes import customer
-        from back.routes import socket
+        from back.routes import customer, socket, measurer
         db.create_all()  
         return app

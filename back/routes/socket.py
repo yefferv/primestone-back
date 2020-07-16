@@ -5,13 +5,13 @@ from back.models import db
 from flask_marshmallow import Marshmallow
 
 ma = Marshmallow(app)
-class Socketschema(ma.Schema):
+class SocketSchema(ma.Schema):
     class Meta:
         fields = ('code','city', 'address', 'coordinateX','coordinateY','customer_identification')
 
 
-socket_schema = Socketschema()
-sockets_schema = Socketschema(many=True)
+socket_schema = SocketSchema()
+sockets_schema = SocketSchema(many=True)
 
 
 @app.route('/sockets', methods=['GET'])
