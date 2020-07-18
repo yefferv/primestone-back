@@ -7,7 +7,7 @@ class Customer(db.Model):
     name = db.Column(db.String(30), nullable=False)
     address=db.Column(db.String(150),  nullable=False)
     phone=db.Column(db.String(30),  nullable=True)
-    mail=db.Column(db.String(30), unique=True, nullable=False)
+    mail=db.Column(db.String(30), nullable=False)
     
     children = db.relationship("Socket")
 

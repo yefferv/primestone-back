@@ -25,6 +25,7 @@ Flask==1.1.2
 flask-marshmallow==0.13.0
 Flask-SQLAlchemy==2.4.4
 psycopg2==2.8.5
+flask-cors==3.0.8
 ```
 
 _Sistema Operativo : _

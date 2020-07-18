@@ -3,11 +3,14 @@ from flask import current_app as app
 from back.models.customer import Customer
 from back.models import db
 from flask_marshmallow import Marshmallow
+from flask_cors import CORS
 
 ma = Marshmallow(app)
 class CustomerSchema(ma.Schema):
     class Meta:
         fields = ('identification','name', 'address', 'phone','mail')
+
+
 
 
 customer_schema = CustomerSchema()
