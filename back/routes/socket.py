@@ -46,7 +46,7 @@ def create_socket():
 def update_socket(id):
     socket = Socket.query.get(id)
 
-    socket.code = request.json['code']
+    #socket.code = request.json['code']
     socket.city = request.json['city']
     socket.address = request.json['address']
     socket.coordinateX = request.json['coordinateX']
