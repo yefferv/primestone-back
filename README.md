@@ -40,6 +40,4 @@ _la idea es tener todo separado, como lo es el modelo (con cada entidad) , las r
 
 
 
-
-
  **Yeffer Velandia** 
